@@ -10,6 +10,6 @@
 /*!*********************!*
   !*** ./src/main.js ***!
   \*********************/
-eval("alert(\"hello\");\r\n\n\n//# sourceURL=webpack://webpack/./src/main.js?");
+eval("alert(\"hello\");\r\n\n\n//# sourceURL=webpack://webpack-project/./src/main.js?");
 /******/ })()
 ;

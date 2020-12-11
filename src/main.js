@@ -1,2 +1,2 @@
 require("./main.css");
-alert("hot");
+require("./index.html");

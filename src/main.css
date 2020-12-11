@@ -1,3 +1,9 @@
-body {
+div {
   color: red;
+  margin-top: 2rem;
+  font-family: sans-serif;
+}
+.im {
+  height: 2rem;
+  width: 2rem;
 }

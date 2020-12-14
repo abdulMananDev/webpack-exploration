@@ -1,9 +1,45 @@
-div {
-  color: red;
-  margin-top: 2rem;
-  font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
-.im {
-  height: 2rem;
-  width: 2rem;
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  background-color: black;
+}
+.profile {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 0 0 20px aliceblue;
+}
+.profile div {
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.img {
+  width: 10rem;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+.img:hover {
+  transform: scale(0.9);
+}
+.bold {
+  font-weight: 600;
+}
+::selection {
+  color: rgba(235, 135, 135, 0.925);
 }
